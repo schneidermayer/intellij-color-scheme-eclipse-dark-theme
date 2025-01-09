@@ -1,0 +1,24 @@
+<idea-plugin>
+  <id>color.scheme.eclipse-dark-theme-color-scheme</id>
+  <name>Eclipse Dark Theme Color Scheme</name>
+  <version>1.5</version>
+  <vendor email="" url="http://www.schneidermayer.com">Hannes Schneidermayer</vendor>
+
+  <description><![CDATA[
+      Example: https://i.stack.imgur.com/qEh5P.png
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Still the best.
+
+      1.5: Add id to prevent error.
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="142.0"/>
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme id="eclipse-dark-theme-color-scheme" path="/colors/Eclipse Dark Theme"/>
+  </extensions>
+</idea-plugin>
